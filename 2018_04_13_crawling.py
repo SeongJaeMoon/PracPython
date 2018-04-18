@@ -2,8 +2,6 @@
 import sys
 import io
 import requests
-import json
-import re
 from bs4 import BeautifulSoup
 from openpyxl import Workbook, load_workbook
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
