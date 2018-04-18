@@ -1,8 +1,6 @@
 import sys
 import io
-import json
 import requests
-import re
 from bs4 import BeautifulSoup
 from openpyxl import Workbook, load_workbook
 
