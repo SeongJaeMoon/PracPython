@@ -9,7 +9,7 @@ from openpyxl import Workbook, load_workbook
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 
-# 2016.10 ~ 2018.03 ()
+# 2016.10 ~ 2018.03 (월 한 번 크롤링(1~1000개) 하는데 5분 이상 소요... 많을 때는 10분 정도 소요.)
 # 달 단위 -> sheet 총 18 sheets -> 18 * 1000 = 18000
 # 큰 단락 -> 월간 순위
 # ddate -> 월 : 2016-10 ~ 2018-03, start -> 시작 페이지 : 1, 101, 201, ..., 901. , , 1, 2, ... 9
