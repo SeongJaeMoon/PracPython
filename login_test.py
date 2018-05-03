@@ -25,8 +25,8 @@ url_join = "http://www.hanbit.co.kr/member/login_proc.php"
 res = session.post(url_join, data = login_info)
 res.raise_for_status() # 오류가 발생하면 예외 발생
 
-# 네이버 페이 마이페이지 접근
-url_mypage = "https://order.pay.naver.com/home"
+# 한빛미디어 마이페이지 접근
+url_mypage = "http://www.hanbit.co.kr/myhanbit/"
 res = session.get(url_mypage)
 res.raise_for_status() # 오류가 발생하면 예외 발생
 
